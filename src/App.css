@@ -1,0 +1,53 @@
+
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100vh;
+}
+
+.flex-messages{
+  background: whitesmoke;
+  color: yellowgreen;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  padding: 2px;
+}
+
+.message-container{
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.button{
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 7px;
+  background: rgb(1, 74, 83);
+  font-size: small;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+.loader-container{
+  margin-top: 150px;
+}
+.spinner-class{
+  height: 20px;
+  color: brown;
+}
+.loading{
+  font-size: 45px;
+}
+.messages{
+  width: 50%;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  background-color: yellowgreen;
+}
